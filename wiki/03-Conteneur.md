@@ -1,4 +1,4 @@
-# Les images
+# Les conteneurs
 
 * 🔖 **Lancement**
 * 🔖 **Les conteneurs**
@@ -71,6 +71,13 @@ Nous avons signalé que les processus étaient isolés. Pour intégir avec eux i
 docker run -p 8080:80 docker/getting-started
 ```
 
+L'option **-dp unifie** processus détaché et mapping de port.
+
+
+```bash
+docker run -dp 8080:80 docker/getting-started
+
+```
 Vous pouvez alors accéder à l'application contenue dans l'image en naviguant jusqu'au port 8080 de votre machine.
 
 **Afficher les logs d'un processus**.
@@ -127,5 +134,3 @@ docker login
 ```bash
 docker push [user_name]/[new_image_name]
 ```
-
-

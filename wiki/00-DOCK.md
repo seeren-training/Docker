@@ -11,14 +11,16 @@ ___
 
 ## Sommaire
 
-* [Introduction](https://github.com/seeren-training/DevOps/wiki/01)
-* [Définitions](https://github.com/seeren-training/DevOps/wiki/02)
-* [Les images](https://github.com/seeren-training/DevOps/wiki/02)
+* [Introduction](https://github.com/seeren-training/Docker/wiki/01)
+* [Définitions](https://github.com/seeren-training/Docker/wiki/02)
+* [Les conteneurs](https://github.com/seeren-training/Docker/wiki/02)
+* [Les images](https://github.com/seeren-training/Docker/wiki/02)
+* [La database](https://github.com/seeren-training/Docker/wiki/02)
 
 ___
 
 ## Thématique
 
-Ce module vise à augmenter la technique Agile orientée DevOps en utilisant le versionning, les tests et l'intégration continue.
+Ce module vise à mettre en place des environnements avec Docker
 
 ___
