@@ -134,7 +134,7 @@ class ConnectionService
 
 *api/config/services.json*
 
-Ce fichier possède les informations de connections de notre exemple.
+Ce fichier possède les informations de connection de notre exemple.
 
 ```json
 {
@@ -203,6 +203,7 @@ Puis la lancer
 
 ```bash
 docker run -dp 8000:8000 \
+-w /api -v "$(pwd):/api" \
 --network hello-world-php-network \
 -e MYSQL_HOST=mysql \
 -e MYSQL_USER=root \

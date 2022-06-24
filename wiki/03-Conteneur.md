@@ -65,7 +65,7 @@ docker run -d docker/getting-started
 
 Nous avons signalé que les processus étaient isolés. Pour intégir avec eux il faudra le mapper vers un port de votre machine vers un port du container.
 
-**Mapper un processus** en utilisant l'option ``-p``.
+**Mapper un processus** en utilisant l'option `-p`.
 
 ```bash
 docker run -p 8080:80 docker/getting-started
@@ -73,11 +73,10 @@ docker run -p 8080:80 docker/getting-started
 
 L'option **-dp unifie** processus détaché et mapping de port.
 
-
 ```bash
 docker run -dp 8080:80 docker/getting-started
-
 ```
+
 Vous pouvez alors accéder à l'application contenue dans l'image en naviguant jusqu'au port 8080 de votre machine.
 
 **Afficher les logs d'un processus**.
@@ -91,6 +90,7 @@ docker logs [process_name]
 ```bash
 docker logs [process_name] -f
 ```
+
 ___
 
 ## 📑 Les images
