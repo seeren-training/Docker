@@ -9,7 +9,7 @@ ___
 
 Docker permet d'embarquer une application dans un ou plusieurs containers logiciels qui pourra s'exécuter sur n'importe quel serveur machine, qu'il soit physique ou virtuel.
 
-![image](./resources/docker.jpg)
+![image](https://raw.githubusercontent.com/seeren-training/Docker/master/wiki/resources/docker.jpg)
 
 C'est une technologie qui a pour but de faciliter les déploiements d'application, et la gestion du dimensionnement de l'infrastructure sous-jacente. Elle est proposée par la société Docker, en partie en open source (sous licence Apache 2.0).
 
