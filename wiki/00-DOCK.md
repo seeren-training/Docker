@@ -13,10 +13,10 @@ ___
 
 * [Introduction](https://github.com/seeren-training/Docker/wiki/01)
 * [Définitions](https://github.com/seeren-training/Docker/wiki/02)
-* [Les conteneurs](https://github.com/seeren-training/Docker/wiki/02)
-* [Images](https://github.com/seeren-training/Docker/wiki/03)
-* [Database](https://github.com/seeren-training/Docker/wiki/04)
-* [Compose](https://github.com/seeren-training/Docker/wiki/05)
+* [Les conteneurs](https://github.com/seeren-training/Docker/wiki/03)
+* [Images](https://github.com/seeren-training/Docker/wiki/04)
+* [Database](https://github.com/seeren-training/Docker/wiki/05)
+* [Compose](https://github.com/seeren-training/Docker/wiki/06)
 
 ___
 
