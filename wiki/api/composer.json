@@ -1,0 +1,14 @@
+{
+    "name": "example/api",
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/"
+        }
+    },
+    "require": {
+        "seeren/router": "^3.1"
+    },
+    "scripts": {
+        "start" : "php -S 0.0.0.0:8000 -t public"
+    }
+}

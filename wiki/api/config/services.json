@@ -1,0 +1,11 @@
+{
+    "parameters": {
+        "dsn": "mysql:host=mysql;port=3306;dbname=hello_world;user=root;password=root;charset=utf8mb4"
+    },
+    "services": {
+        "Api\\Service\\ConnectionService": {
+            "dsn": ":dsn"
+        }
+    }
+}
+
